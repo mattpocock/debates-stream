@@ -7,6 +7,9 @@ We will be debating the most contentious topics in TypeScript. I will be arguing
 We'll be debating four main topics:
 
 1. Enums. Should you use them?
+
+**Verdict**: Don't use them
+
 2. `no-explicit-any` - should you allow developers to submit any's into your codebase?
 3. Types vs Interfaces. Which should you use?
 4. `noImplicitReturns` - should you force your developers to specify return types in all cases?
