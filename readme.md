@@ -11,7 +11,11 @@ We'll be debating four main topics:
 **Verdict**: Don't use them
 
 2. `no-explicit-any` - should you allow developers to submit any's into your codebase?
+
 3. Types vs Interfaces. Which should you use?
+
+**Verdict**: It depends. Use whatever your team use.
+
 4. `noImplicitReturns` - should you force your developers to specify return types in all cases?
 
 ## Exhibits
