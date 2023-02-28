@@ -20,6 +20,8 @@ We'll be debating four main topics:
 
 4. `noImplicitReturns` - should you force your developers to specify return types in all cases?
 
+**Verdict**: The more consumers your function has, the more benefit you get from adding a return type. Many functions do not have consumers, or their consumers are hidden in a framework (React components). So, forcing developers to explicitly pass return types is bad.
+
 ## Exhibits
 
 If you want to help argue your case, you'll need to submit exhibits. PR some TypeScript into the `src/exhibits` folder, and I'll see if it's useful in court. Who knows - your code could become a star witness.
