@@ -1,9 +1,20 @@
-// Using interfaces is dangerous!!!!
-interface Window {
-    hello: string
+// Using interfaces is dangerous!
+
+interface Window { // <- no error
+    hello?: string
 }
 
-const window: Window = {
+const myWindow: Window = { // <- bad error "missing properties"???
+    
+}
 
-    // ^ autocomplete here
+
+/// Difference when using types
+
+type Document = { // <- good error at type "duplicate identifier"
+    hello?: string
+}
+
+const myDocument: Document = {
+
 }
