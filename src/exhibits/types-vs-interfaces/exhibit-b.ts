@@ -1,5 +1,5 @@
 // Using interfaces is dangerous!!!!
-interface Windows {
+interface Window {
     hello: string
 }
 
