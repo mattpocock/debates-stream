@@ -12,6 +12,8 @@ We'll be debating four main topics:
 
 2. `no-explicit-any` - should you allow developers to submit any's into your codebase?
 
+**Verdict**: Enable in applications (but allow exceptions for rare cases). Disable in library code. Disable in test suites.
+
 3. Types vs Interfaces. Which should you use?
 
 **Verdict**: It depends. Use whatever your team use.
